@@ -55,8 +55,6 @@ Module Module1
             End If
         Next
 
-
-
         Console.WriteLine(CStr("Roll of the Dice").PadLeft(39))
         Console.WriteLine(StrDup(66, "-"))
         For i = 2 To 12
