@@ -9,7 +9,7 @@ Option Explicit On
 Option Compare Binary
 
 Public Class DiceRollForm
-    Public diceArray(1, 12) As Integer
+
 
     'Button that rolls two dice and adds the results displaying number of each result.
     'Button that clears the listbox and rolls the two dice again and redisplays the results.
@@ -19,6 +19,7 @@ Public Class DiceRollForm
         Static secondDice As Integer
         Dim tempValue$
         Dim tempCount$
+        Dim diceArray(1, 12) As Integer
 
         TotalsListBox.Items.Clear()
 

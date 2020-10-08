@@ -153,7 +153,7 @@ Partial Class DiceRollForm
         Me.Controls.Add(Me.TotalsListBox)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Name = "DiceRollForm"
-        Me.Text = "Form1"
+        Me.Text = "Roll the Dice"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
