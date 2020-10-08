@@ -52,6 +52,7 @@ Public Class DiceRollForm
         'Disables Roll button after first click and enables Reroll.
         RollButton.Enabled = False
         ReRollButton.Enabled = True
+        ReRollButton.Select()
         RerollToolStripMenuItem.Enabled = True
         RollToolStripMenuItem.Enabled = False
     End Sub
@@ -65,6 +66,7 @@ Public Class DiceRollForm
     Private Sub ClearButton_Click(sender As Object, e As EventArgs) Handles ClearButton.Click, ClearToolStripMenuItem.Click
         TotalsListBox.Items.Clear()
         RollButton.Enabled = True
+        RollButton.Select()
         ReRollButton.Enabled = False
         RerollToolStripMenuItem.Enabled = False
         RollToolStripMenuItem.Enabled = True
